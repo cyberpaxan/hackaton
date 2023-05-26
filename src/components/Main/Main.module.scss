@@ -47,6 +47,11 @@
     }
 
     &__image {
+        margin-top: 150px;
         margin-left: 50px;
+
+        img {
+            width: 600px;
+        }
     }
 }

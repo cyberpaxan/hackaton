@@ -20,7 +20,9 @@ const About = () => {
                         <img src={salavat} />
                         <h1>Салават Ягафаров</h1>
                         <h2>ML рзаработчик</h2>
-                        <img className={styles.github} src={github} />
+                        <Link to='https://github.com/noisyfoar'>
+                            <img className={styles.github} src={github} />
+                        </Link>
                     </div>
                     <div className={styles.about__blocks__2}>
                         <img src={igor} />

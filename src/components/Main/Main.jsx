@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Main.module.scss';
-import pic from '../../logo512.png';
+import big1 from '../../big1.png';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
     return (
@@ -30,18 +31,20 @@ const Main = () => {
                                 низкой корреляции данных пришлось отказаться от
                                 этой идеи.
                                 <br />
-                                <br />
-                                Поэтому
+                                <br />В качестве обучения нашей модели была
+                                выбрана линейная регрессия.
                             </h1>
                         </div>
 
                         <div className={styles.main__form__content__button}>
-                            <button>Посмотреть на GitHub</button>
+                            <Link to='https://github.com/noisyfoar/ml_usptu'>
+                                <button>Посмотреть на GitHub</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
                 <div className={styles.main__image}>
-                    <img src={pic} />
+                    <img src={big1} />
                 </div>
             </div>
         </div>
