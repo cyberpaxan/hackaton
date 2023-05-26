@@ -1,0 +1,39 @@
+.header {
+    align-items: center;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            margin-left: 135px;
+            margin-top: 24px;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 45px;
+            color: #000000;
+        }
+
+        &__buttons {
+            display: flex;
+
+            line-height: 20px;
+            margin-left: 82px;
+            margin-right: 116px;
+
+            h2 {
+                margin-left: 20px;
+                margin-right: 20px;
+                justify-content: space-between;
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 20px;
+                color: #000000;
+            }
+        }
+    }
+}

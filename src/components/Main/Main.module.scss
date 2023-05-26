@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    &__form {
+        width: 650px;
+        height: 650px;
+        margin-right: 50px;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &__title {
+                align-items: center;
+                h1 {
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: left;
+                }
+            }
+
+            &__button {
+                margin-top: 20px;
+                button {
+                    box-shadow: inset 0px 1px 0px 0px #000000;
+                    font-family: 'Comfortaa';
+                    background-color: #000000;
+                    border-radius: 3px;
+                    border: 1px solid #000000;
+                    display: inline-block;
+                    cursor: pointer;
+                    color: #ffffff;
+                    font-size: 18px;
+                    padding: 6px 24px;
+                    text-decoration: none;
+                    text-shadow: 0px 1px 0px #000000;
+                }
+            }
+        }
+    }
+
+    &__image {
+        margin-left: 50px;
+    }
+}
